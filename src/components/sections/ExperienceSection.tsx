@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../utils/animation';
 import SectionHeading from '../ui/SectionHeading';
-import { Calendar, Building2, ExternalLink } from 'lucide-react';
+import { Calendar, Building2 } from 'lucide-react';
 
 interface Experience {
   title: string;
@@ -53,18 +53,18 @@ const ExperienceSection = () => {
       title: "Web Security Researcher",
       company: "National Center of Cyber-Security",
       period: "June 2024 - September 2024",
+      description: [],
       projects: [
-    {
+        {
           name: "Social Engineering Ad Detector",
           description: "Developed a custom web crawler to gather a large dataset of online advertisements used in social engineering attacks. The collected data was utilized to train a machine learning model capable of detecting over 90% of social engineering ads with high precision. The solution enhances online safety by identifying deceptive content in real time."
-    },
-    {
+        },
+        {
           name: "Outdated Component Detector",
           description: "Contributed to the development of an advanced tool for analyzing web pages to identify outdated or vulnerable components (e.g., libraries, frameworks). This tool aids in improving website security posture by proactively flagging deprecated or insecure technologies in use."
+        }
+      ]
     }
-    ]
-    }
-
   ];
 
   return (
@@ -121,8 +121,7 @@ const ExperienceSection = () => {
                           <h4 className="text-lg font-semibold text-primary-400">Key Projects</h4>
                           {exp.projects.map((project, i) => (
                             <div key={i} className="bg-gray-800/50 rounded-lg p-4">
-                              <h5 className="text-white font-medium mb-2 flex items-center">
-                                <ExternalLink size={16} className="mr-2" />
+                              <h5 className="text-white font-medium mb-2">
                                 {project.name}
                               </h5>
                               <p className="text-gray-300">{project.description}</p>

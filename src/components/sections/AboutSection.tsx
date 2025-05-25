@@ -72,20 +72,21 @@ const AboutSection = () => {
                   whileHover={{ scale: 1.03 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <div className="p-8 h-full flex flex-col justify-center">
-                    <h3 className="text-2xl font-semibold mb-4">My Background</h3>
-                    <div className="space-y-4">
-                      <p className="text-gray-300">
-                        With over a year of experience in the cybersecurity field, I've worked with numerous organizations to strengthen their security posture and investigate digital threats.
-                      </p>
-                      <p className="text-gray-300">
-                        My approach combines technical expertise with strategic thinking to deliver comprehensive security solutions that work in the real world.
-                      </p>
-                      <p className="text-gray-300">
-                        I regularly participate in Capture The Flag (CTF) competitions and contribute to open-source projects to stay at the cutting edge of the field.
-                      </p>
-                    </div>
-                  </div>
+                 <div className="p-8 h-full flex flex-col justify-center">
+  <h3 className="text-2xl font-semibold mb-4">My Background</h3>
+  <div className="space-y-4">
+    <p className="text-gray-300">
+      I'm Junaid, also known as <span className="text-white font-bold">SPECT3R</span> — a cybersecurity practitioner with over a year of hands-on experience helping organizations fortify their digital defenses and respond to emerging threats.
+    </p>
+    <p className="text-gray-300">
+      My approach blends deep technical skills with strategic foresight to build security solutions that are both practical and impactful across red, blue, and GRC domains.
+    </p>
+    <p className="text-gray-300">
+      I actively participate in Capture The Flag (CTF) competitions, contribute to open-source security projects, and continuously push boundaries to stay ahead in the cybersecurity landscape.
+    </p>
+  </div>
+</div>
+
                 </motion.div>
               </div>
               <motion.div 
