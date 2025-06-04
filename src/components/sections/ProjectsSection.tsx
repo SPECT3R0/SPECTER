@@ -186,7 +186,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "URL Master",
       description: "An automated Chromium-based crawler that executes prewritten queries, scrapes relevant URLs, and exports them for lead generation or analysis.",
-      image: "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "/images/projects/8426454_3918929.jpg",
       tags: ["Python", "Automation", "Web Crawling", "Chromium", "Lead Generation", "Client Hunting", "URL Scraping"]
 //      codeLink: "https://github.com/junaid/cryptoguard",
 ,
@@ -228,7 +228,7 @@ const ProjectsSection = () => {
     id: 7,
     title: "Spell Checker",
     description: "A C++ GUI-based spell checker that uses DSA and Levenshtein algorithm to suggest accurate corrections.",
-    image: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "/images/projects/Vintage Typewriter on Wooden Desk.jpeg",
     tags: ["C++", "GUI", "Levenshtein Algorithm", "Data Structures", "Spelling Correction", "CLI Based"]
 //     demoLink: "https://threatintel.example.com",
 ,
@@ -239,7 +239,7 @@ const ProjectsSection = () => {
   id: 8,
   title: "Secure Random Password Generator",
   description: "An Assembly-based tool that generates secure, unique passwords every time it is executed.",
-  image: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  image: "/images/projects/computer-security-with-login-password-padlock.jpg",
   tags: ["Assembly", "Cybersecurity", "Random Generator", "Password Management", "Low-level Programming"]
 //     demoLink: "https://threatintel.example.com",
 ,
@@ -250,7 +250,7 @@ const ProjectsSection = () => {
   id: 9,
   title: "Hotel Network Design",
   description: "A complete hotel network topology designed and simulated using Cisco Packet Tracer.",
-  image: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  image: "/images/projects/21164.jpg",
   tags: ["Networking", "Cisco Packet Tracer", "VLAN", "DHCP", "Routing", "Firewall", "Topology Design"]
 //     demoLink: "https://threatintel.example.com",
   ,

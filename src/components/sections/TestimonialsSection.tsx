@@ -69,7 +69,7 @@ const TestimonialsSection = () => {
   
   useEffect(() => {
     if (!isPaused) {
-      intervalRef.current = setInterval(goToNext, 5000);
+      intervalRef.current = setInterval(goToNext, 2000);
     }
     
     return () => {
