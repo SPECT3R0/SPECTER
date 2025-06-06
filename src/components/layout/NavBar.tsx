@@ -54,7 +54,7 @@ const NavBar = () => {
     { href: '#experience', title: 'Experience' },
     { href: '#skills', title: 'Skills' },
     { href: '#projects', title: 'Projects' },
-    { href: '#Recent Work', title: 'Recent Work' },
+    { href: '#writeups', title: 'Recent Work' },
     { href: '#testimonials', title: 'Testimonials' },
     { href: '#contact', title: 'Contact' }
   ];
